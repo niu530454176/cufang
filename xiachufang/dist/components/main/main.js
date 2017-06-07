@@ -1,0 +1,2 @@
+/*! spmseajs 2017-06-05 */
+define("MOD_ROOT/main/main",[],function(a,b,c){function d(){var b=[];b.push("MOD_ROOT/login/login"),b.push("MOD_ROOT/list/list"),b.push("MOD_ROOT/lazyinit/lazyinit"),a.async(b,function(){for(var a=Array.prototype.slice.call(arguments),c=a.length,d=0;d<c;d++){var e=a[d];e&&"function"==typeof e.init?e.init():console.warn("Module[%s] must be exports a init function",b[d])}})}c.exports.__id="main",c.exports.init=d});
